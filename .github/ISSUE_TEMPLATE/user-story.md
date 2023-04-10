@@ -7,17 +7,18 @@ assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+**As a** Marketing Manager  
+ **I need** customer emails
+ **So that** for promotional advertisement
    
  ### Details and Assumptions
- * [document what you know]
+ * 67 customer emails
+ * 50 customer emails have prompted for advertisement
    
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+ Given there are 67 customer emails
+ When I request customer email list for opted add
+ Then I should have a list of 50 customer emails
  ```
